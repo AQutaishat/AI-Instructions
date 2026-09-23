@@ -1,0 +1,33 @@
+use docker
+
+create future-work.md
+always backup database and configuration files before deploying
+create docs 
+always read md files with each run
+always add what you have done to file (docs/working-docs/progress.md)
+docs/meta-data.md that contains and collects any title or descritption or privacy statement or terms of use and all sites and domains and hosts or utility sites i used to build this site
+and also in docs/creadenials folder execlude it from git, put there any production or sensitive credentials or server production data there
+
+
+to do real user testing when needed
+1. Real environment, not just code reading
+I actually started Docker (postgres, api, seq, adminer) and the Vite dev server for the frontend on localhost:5173 — a genuinely running app, not just static analysis of the source.
+
+2. Real Playwright automation
+I installed a real Chromium browser via npx playwright install chromium, then wrote Node scripts that actually open the browser, log in, click buttons, fill out forms, upload files (payment evidence), and navigate between pages — exactly what a real user would do.
+
+3. Visual verification via screenshots
+After each step I took an actual screenshot and inspected it with my own eyes (via the Read tool on the image) to confirm the UI, RTL layout, and Arabic text rendered correctly — that's how I caught real bugs like corrupted Arabic name encoding and the button-height mismatch earlier.
+
+4. Double-checking against the API
+I also inspected the API requests directly (curl/Node) to confirm the underlying state was correct, not just what the UI displayed on the surface.
+
+
+
+
+login with google
+
+seqlogs hould be rich, contian user id if authonticated, request id, app (source), envirnment, 
+add opentelementry with app insights
+admin settings page
+

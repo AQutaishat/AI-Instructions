@@ -1,0 +1,19 @@
+# Progress Log
+
+Chronological record of meaningful implementation work.
+
+## YYYY-MM-DD — [Milestone / Task]
+
+Implemented:
+- ...
+
+Changed:
+- ...
+
+Verification:
+- Build: ...
+- Tests: ...
+- Manual/E2E: ...
+
+Notes:
+- ...
