@@ -1,0 +1,25 @@
+# Taw local secrets / credentials
+/docs/credentials/*
+!/docs/credentials/01-README.md
+!/docs/credentials/02-credentials-template.md
+
+# Common local credential variants
+*.local.secret
+*.local.secrets
+*.pem
+*.pfx
+*.p12
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Common build/runtime outputs
+bin/
+obj/
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
